@@ -45,7 +45,7 @@ deploy:
    key: freelec-springboot2-webservice.zip # 빌드 파일을 압축해서 전달
    bundle_type: zip
    application: awsspring-cd
-   deployment_group: awsspring-cd
+   deployment_group: awsspring-cdg
    region: ap-northeast-2
    wait-until-deployed: true
 
