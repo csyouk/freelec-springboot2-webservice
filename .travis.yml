@@ -45,7 +45,7 @@ deploy:
     bucket: awsspring-s3
     key: freelec-springboot2-webservice.zip # 빌드 파일을 압축해서 전달
     bundle_type: zip
-    application: awsspring-cd
+    application: awsspring
     deployment_group: awsspring-cdg
     region: ap-northeast-2
     wait-until-deployed: true
@@ -55,4 +55,3 @@ notifications:
   email:
     recipients:
       - csss.youk@gmail.com
-      - csss.youk@samsung.com
